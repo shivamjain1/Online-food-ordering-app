@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Food Ordering App</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="search-bar">
+            <img src="./images/app-logo.png" class="logo" onclick="window.location.reload()">
+            <input type="text" id="search" placeholder="Search restaurant by names or tags.." title="Type in a name">
+        </div>
+        <div class="filters">
+            <select name="dropown" id="sortby" onchange="sortby(event)">
+                <option disabled>Sort By</option>
+                <option value="rating">Sort By RATING</option>
+                <option value="eta">Sort By ETA</option>
+              </select>
+            <button class="show-fav">Your Favourites</button>
+        </div>
+        <div class="restaurants"></div>
+        <div class="errorNotify"></div>
+    </div>
+
+    <script src="./js/app.js"></script>
+    
+</body>
+</html>

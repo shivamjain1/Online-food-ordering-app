@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.logo{
+    width: 64px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.search-bar{
+    display: flex;
+}
+
+.filters{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.restaurants{
+    flex-wrap: wrap;
+    /* flex: 1; */
+    width: 90%;
+    /* height: 100%; */
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.hotel-card{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid lightgray;
+}
+
+.hotel-location{
+    background: orange;
+    width: 51px;
+    padding: 5px;
+    color: white;
+}
+
+.hotel-eta{
+    font-size: 12px;
+}
+
+.hotel-name{
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.hotel-tags{
+    font-size: 10px;
+    padding: 10px;
+}
+
+button.favourite {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    /* float: left; */
+    align-self: flex-end;
+    border: none;
+    position: absolute;
+    outline: transparent;
+}
+
+
+#fav-id{
+    background: white;
+}
+
+#fav-id-red{
+    background: red;
+}
+
+#search {
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.show-fav{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    /* padding: 3px; */
+    color: white;
+    background: red;
+    border: 1px solid;
+    /* float: right; */
+    right: 10%;
+    /* margin-bottom: 20px; */
+    position: absolute;
+    outline: transparent;
+    /* margin: 100px; */
+}
+
+#sortby{
+    position: absolute;
+    padding: 10px;
+    left: 3%;
+}
