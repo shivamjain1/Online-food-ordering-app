@@ -3,6 +3,10 @@ Online Food Ordering App like Swiggy and Zomato built using Html, CSS and Pure J
 
 Live Demo => https://iswiggy.herokuapp.com/  <br/><br/><br/>
 
+![image](https://user-images.githubusercontent.com/28086341/102119032-855d4280-3e66-11eb-8070-59a73b68a918.png)
+
+<br/>
+
 Functionalities Implemented <br/>
 * Search of a Restaurant with <b>Debouncing</b>
 * Sorting of Restaurant
